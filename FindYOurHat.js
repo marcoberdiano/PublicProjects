@@ -61,7 +61,7 @@ class Field {
     }
 
     static generateField(heigth, width){
-      // 20% of hole in the field
+      // 16% of hole in the field
       const fieldElements = [fieldCharacter, fieldCharacter, fieldCharacter, fieldCharacter, fieldCharacter, fieldCharacter,hole];
       const field = [];
       //const startField = [pathCharacter];
