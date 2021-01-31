@@ -2,8 +2,6 @@ fun main(){
     passGen()
 }
 
-fun fraseInversa(frase: String) = print(frase.takeLast(2))
-
 fun passGen() {
 
     val lista_num = listOf(0,1,2,3,4,5,6,7,8,9)
@@ -50,8 +48,4 @@ fun passGen() {
             i++
         }
     }
-}
-
-fun passGenv2(){
-
 }
