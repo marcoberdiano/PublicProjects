@@ -5,8 +5,7 @@ fun main(){
 fun passGen() {
 
     val lista_num = listOf(0,1,2,3,4,5,6,7,8,9)
-    var c: Int = 0
-
+   
     // 1 digito
     lista_num.forEach { num -> println(num) }
 
